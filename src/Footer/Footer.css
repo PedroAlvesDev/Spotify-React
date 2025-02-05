@@ -1,0 +1,45 @@
+.disclaimer-premium {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    background-image:  linear-gradient(90deg, #af2896, #509bf5);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: -webkit-fill-available;
+    justify-content: space-between;
+}
+
+.disclaimer-premium .text {
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+}
+
+.disclaimer-premium__title {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium__subtitle {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.disclaimer-premium__button .button {
+    border: 0px;
+    border-radius: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 8px 12px;
+}
+
+.disclaimer-premium__button .button:hover {
+    font-size: 14px;
+} 
